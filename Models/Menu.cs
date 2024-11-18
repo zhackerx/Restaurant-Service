@@ -6,6 +6,7 @@
         public int RestaurantId { get; set; }
         public string ItemName { get; set; }
         public decimal Price { get; set; }
+        public bool Availability { get; set; }
         public Restaurant Restaurant { get; set; }
     }
 
